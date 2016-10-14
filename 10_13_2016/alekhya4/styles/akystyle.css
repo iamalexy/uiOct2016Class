@@ -1,0 +1,60 @@
+form {
+	border: 2px dotted #ace;
+}
+
+#firstName{
+	position: relative;
+	top:0px;
+	right:0;
+	bottom:20px;
+	left:0px;
+	display:block;
+}
+
+#lastName{
+	position: relative;
+	top:0px;
+	right:100px;
+	bottom:20px;
+	left:0px;
+	display:block;
+
+}
+
+#phonenumber{
+	position: relative;
+	top:0px;
+	right:0;
+	bottom:20px;
+	left:0px;
+	display:block;
+}
+
+#email{
+	position: relative;
+	top:0px;
+	right:0;
+	bottom:20px;
+	left:0px;
+	display:block;
+}
+
+#password{
+	position: relative;
+	top:0px;
+	right:0;
+	bottom:20px;
+	left:0px;
+	display:block;
+}
+
+#submit{
+	background-color: #567;
+	color: #ecd248;
+}
+
+#cancel{
+	background-color: #f44336;
+	color: #faecff;
+
+}
