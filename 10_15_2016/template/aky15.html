@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Employment form</title>
+	<link rel="stylesheet" type="text/css" href="../Styles/aky15.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<meta name="Description" content="This is the application for candidates who are looking for Front-end Development positions">
+	<meta name="keywords" content="EmployeeForm,FrontEndDevelopment,UI/UX Developer,UI/UX Designer,ScrumMaster,BusinessAnalyst,UI TeamLead"/>
+	<meta charset="UTF-8"/>
+</head>
+<body>
+
+	<!--Main body goes here-->	
+	<article>
+	<!--This is Header-->	
+		<header>
+			<h1> This is my Header</h1>
+		</header>
+		<section>
+			
+			<center>
+			<!--Form Starts here-->	
+				<form name="EmployeeForm">	
+					<div>
+					<!--Unordered list with Home, AboutUs , Contact Us and Newsroom-->
+						<ul>
+							<li><a href="#home">Home</a></li>
+							<li><a href="#About Us">About Us</a></li>
+							<li><a href="#Contact Us">Contact Us</a></li>
+							<li><a href="#Newsroom">FAQ</a></li>
+						</ul>
+					</div> 
+					<!--First Name Field-->		
+				
+					<div>
+						<label for="firstName">First Name :</label>
+				    	<input type="text" name="firstName" placeholder="Enter your firstName">	
+					</div>
+
+					<!--Last Name Field-->					
+
+					<label for ="lastName">Last Name  :</label>
+					<input type="text" name="lastName" placeholder="Enter your lastName">
+
+					<!--Gender Field-->	
+                
+					<label for ="Gender">Gender:</label>
+						<div>
+							<input type="radio" name="Gender" value="Male" checked=""> Male
+				        	<input type="radio" name="Gender" value="Female">Female
+				        	<input type="radio" name="Gender" value="Other">Other
+						</div>	
+
+					<!--PhoneNumber Field-->		
+				
+
+					<label for="phonenumer">Mobile Number:</label>
+					<input type="text" name="phonenumer" placeholder="123-456-7890">
+
+					<!--First Name Field-->	
+
+					<label for="Email">User Email:</label>
+					<input type="Email" name="Email" placeholder="ex@xyz.com">
+
+					<!--Password Field-->	
+
+					<label for=psw>User Password:</label>
+					<input type="Password" name="psw" placeholder="*********">	
+
+					<!--Job position Field-->			
+
+				
+					<label for="Position">Position Looking for:</label>
+						<div>
+							<input type="checkbox" name="Position" value="UI Developer">UI Developer
+							<input type="checkbox" name="Position" value="UI Designer">UI Designer
+							<input type="checkbox" name="position" value="UI Designer/UI Developer">UI Designer/UI Developer
+						</div>
+
+					<!--Submit and Reset Field-->	
+			
+					<div>
+						<input type="submit" name="Submit" value="Submit">
+				    	<input type="reset" name="reset" value="Cancel">
+					</div>
+				
+				</form>
+			</center>
+		</section>
+
+		<!--Footer Section-->	
+		<footer>
+			<h1>Thanks For Visiting</h1>
+		</footer>
+	</article>   
+</body>
+</html>
