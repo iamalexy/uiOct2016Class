@@ -1,3 +1,8 @@
+/*#water{
+	-webkit-transform: rotate(-90deg);
+	 
+
+}*/
 div{
 	color:  #96e8ea;
 	animation-name: an;
@@ -8,8 +13,27 @@ div{
 }
 
 @keyframes an {
-    from {color: #0d388a;}
-    to {color:#80d720;}
+   /* from {color: #0d388a;}
+    to {color:#80d720;}*/
+    0%,100%{color: #0d388a;}
+    50%{color:#80d720;}
+}
+.see{
+	width: 200px;
+    height: 30px;
+    background-color:#f63763;
+    position: relative;
+    -webkit-animation-name: three;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count:3;
+}
+
+@-webkit-keyframes three {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:60px; top:0px;}
+    50%  {background-color:blue; left:60px; top:60px;}
+    75%  {background-color:green; left:0px; top:60px;}
+    100% {background-color:red; left:0px; top:0px;}
 }
 .change{
 	transform: translate(20px, 50px);
@@ -20,13 +44,13 @@ div{
 	transform: skewX(45deg);
 }
 .Dan{
-	transform: matrix(1, -0.5, 0, 1, 0, 0);
+	transform: matrix(1, 0.15, 0, 1, 0, 0);
 }
 .wow{
 	background-color: #fe65c0;
 	border: 2px;
 	transform-origin: 30%,40%;
-	transform: rotate3d(1,0,1,45deg);
+	transform: rotate3d(1,0,0,45deg);
 	transform-style: preserve-3d;
 	
 }
