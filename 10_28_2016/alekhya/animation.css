@@ -1,0 +1,33 @@
+div{
+	color:  #96e8ea;
+	animation-name: an;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes an {
+    from {color: #0d388a;}
+    to {color:#80d720;}
+}
+.change{
+	transform: translate(20px, 50px);
+	background-color: #fe65c0;
+	border: 2px;
+	transform: rotate(90deg);
+	transform: scale(1,2);
+	transform: skewX(45deg);
+}
+.Dan{
+	transform: matrix(1, -0.5, 0, 1, 0, 0);
+}
+.wow{
+	background-color: #fe65c0;
+	border: 2px;
+	transform-origin: 30%,40%;
+	transform: rotate3d(1,0,1,45deg);
+	transform-style: preserve-3d;
+	
+}
+
