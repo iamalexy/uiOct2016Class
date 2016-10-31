@@ -176,8 +176,12 @@ input[type="email"]:invalid ~ #verify{
 
 	display: inline-block;
 }
-
-
+div>input{
+	background-color: #f63763;
+}
+div+p{
+	background-color:#c2f336;
+}
 /*input[type="email"]:invalid + label{
     top: 0;
     color: #000;
